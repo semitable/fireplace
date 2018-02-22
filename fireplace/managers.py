@@ -144,6 +144,7 @@ class PlayerManager(Manager):
 
 CARD_ATTRIBUTE_MAP = {
 	GameTag.ADJACENT_BUFF: "adjacent_buff",
+	GameTag.ALL_TARGETS_RANDOM: "all_targets_random",
 	GameTag.ARMOR: "armor",
 	GameTag.ATK: "atk",
 	GameTag.ATTACKING: "attacking",
@@ -164,6 +165,8 @@ CARD_ATTRIBUTE_MAP = {
 	GameTag.CARDRACE: "race",
 	GameTag.CARDTYPE: "type",
 	GameTag.CHARGE: "charge",
+	GameTag.CHOOSE_BOTH: "choose_both",
+	GameTag.CHOOSE_ONE: "has_choose_one",
 	GameTag.CLASS: "card_class",
 	GameTag.COMBO: "has_combo",
 	GameTag.CONTROLLER: "controller",
